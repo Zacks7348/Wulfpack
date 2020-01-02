@@ -1,0 +1,70 @@
+bot:
+  id: 583343311545434140
+  owner: 174257170114805760
+  prefix: '!'
+  debug-mode: false
+  default-cogs:
+  - bot.cogs.manager
+  - bot.cogs.base_commands
+  - bot.cogs.startup
+  - bot.cogs.role_manager
+  - bot.cogs.live_alerts
+  - bot.cogs.syncer
+  - bot.cogs.permissions
+guild:
+  id: 303523939337109505
+  invite: '[COMMAND] TO SET THIS'
+  roles:
+  - Gif Your Game_role: 554574549954461716
+  - Nitro Booster_role: 641114754936471596
+  - WoW Peeps_role: 641102546185879566
+  - GP Boi_role: 603782017867448331
+  - Destiny LFR_role: 641102543572828172
+  - Destiny LFF_role: 641102536115224657
+  - Destiny Peeps_role: 641100855415930903
+  - RL LFG_role: 641102398902894592
+  - RL Peeps_role: 638143912128675910
+  - Stream Squad_role: 641105853033873428
+  - Wulfpack_role: 648702399808012288
+  - Mods_role: 339245588035928064
+  - Omega's_role: 356068625343447047
+  - Alpha's_role: 304369028141416468
+  channels:
+  - mod-chat: 641117623500931072
+  - music-chat: 644719769949437964
+  - sponsorship-stuff: 650475890404491284
+  - bot-testing: 648701656149524490
+  - rocket-league-practice-vids: 338834848598982658
+  - role-assignment: 646894988067602442
+  - streamer-chat: 641117225347973130
+  - division-agent-info: 397802033031151616
+  - welcome: 641101911222779914
+  - potential-content-creators: 641093350694322222
+  - red-dead-redemption-2: 646465453258178600
+  - general: 641100771395371052
+  - streaming-self-promo: 641441879249911849
+  - join-leave: 641086686658297857
+  - lfg: 641121770333667331
+  - stream-squad-promo: 641117355631575041
+  - lf-raid-party: 641121881411420160
+  - minecraft: 615193428778811392
+  - destiny: 499760993396719616
+  - stream-clips: 329440899522101250
+  - fantasy-football: 475842570723917855
+  - esports-talk: 640920155446050848
+  - memes: 641392219630338108
+  - rocket-league-general: 641100057214582804
+  - sea-of-thieves: 524304500303855616
+  - lf-fireteam: 641121843293585418
+  - gta-gp-schedule: 603782274554658836
+  - world-of-warcraft: 641087250557304881
+  - gif-your-game: 514273456766976022
+permissions:
+  erole:
+    admin: true
+    roles: []
+    channels: []
+  live:
+    admin: true
+    roles: []
+    channels: []

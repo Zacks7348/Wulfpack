@@ -11,6 +11,11 @@ class Manager(Cog):
     def __init__(self, bot):
         self.bot = bot   
 
+    @command(name="logout")
+    @is_owner()
+    async def manager_bot_logout(self, ctx):
+        await self.bot.logout()
+
     @group(name="cog")
     @is_owner()
     async def manager_cog(self, ctx):

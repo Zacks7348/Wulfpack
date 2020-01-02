@@ -99,7 +99,7 @@ class Config():
             "channels": self.__link_channels(self.live_perms["channels"])
         }
         with open("config.yml", "w") as f:
-            yaml.dump(config, f, Dumper=CustomAnchor, sort_keys=False)
+            yaml.dump(config, f, Dumper=CustomAnchor)
     
     def __link_roles(self, perm_roles):
         config_roles = []
@@ -205,7 +205,7 @@ def generate_config(bot):
         "channels": []
     }
     with open("config.yml", "w") as f:
-        yaml.dump(config, f, Dumper=CustomAnchor, sort_keys=False)
+        yaml.dump(config, f, Dumper=CustomAnchor)
 
 
 

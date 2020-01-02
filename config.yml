@@ -1,7 +1,4 @@
 bot:
-  id: 583343311545434140
-  owner: 174257170114805760
-  prefix: '!'
   debug-mode: false
   default-cogs:
   - bot.cogs.manager
@@ -11,24 +8,10 @@ bot:
   - bot.cogs.live_alerts
   - bot.cogs.syncer
   - bot.cogs.permissions
+  id: 583343311545434140
+  owner: 174257170114805760
+  prefix: '!'
 guild:
-  id: 303523939337109505
-  invite: '[COMMAND] TO SET THIS'
-  roles:
-  - Gif Your Game_role: 554574549954461716
-  - Nitro Booster_role: 641114754936471596
-  - WoW Peeps_role: 641102546185879566
-  - GP Boi_role: 603782017867448331
-  - Destiny LFR_role: 641102543572828172
-  - Destiny LFF_role: 641102536115224657
-  - Destiny Peeps_role: 641100855415930903
-  - RL LFG_role: 641102398902894592
-  - RL Peeps_role: 638143912128675910
-  - Stream Squad_role: 641105853033873428
-  - Wulfpack_role: 648702399808012288
-  - Mods_role: 339245588035928064
-  - Omega's_role: 356068625343447047
-  - Alpha's_role: 304369028141416468
   channels:
   - mod-chat: 641117623500931072
   - music-chat: 644719769949437964
@@ -59,12 +42,29 @@ guild:
   - gta-gp-schedule: 603782274554658836
   - world-of-warcraft: 641087250557304881
   - gif-your-game: 514273456766976022
+  id: 303523939337109505
+  invite: https://discord.gg/QNDNU6v
+  roles:
+  - Gif Your Game_role: 554574549954461716
+  - Nitro Booster_role: 641114754936471596
+  - WoW Peeps_role: 641102546185879566
+  - GP Boi_role: 603782017867448331
+  - Destiny LFR_role: 641102543572828172
+  - Destiny LFF_role: 641102536115224657
+  - Destiny Peeps_role: 641100855415930903
+  - RL LFG_role: 641102398902894592
+  - RL Peeps_role: 638143912128675910
+  - Stream Squad_role: 641105853033873428
+  - Mods_role: 339245588035928064
+  - Omega's_role: 356068625343447047
+  - Alpha's_role: 304369028141416468
+  - Wulfpack-bot_role: 648702399808012288
 permissions:
   erole:
     admin: true
-    roles: []
     channels: []
+    roles: []
   live:
     admin: true
-    roles: []
     channels: []
+    roles: []

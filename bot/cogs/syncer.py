@@ -24,8 +24,9 @@ class Syncer(Cog):
     
     @Cog.listener()
     async def on_guild_role_update(self, before, after):
-        log.info("Updating config file: Guild Role Updated")
-        Config().edit_role(before, after)
+        if before.name != after.name:
+            log.info("Updating config file: Guild Role Updated")
+            Config().edit_role(before, after)
     
     @Cog.listener()
     async def on_guild_channel_create(self, channel):
@@ -41,7 +42,7 @@ class Syncer(Cog):
     
     @Cog.listener()
     async def on_guild_channel_update(self, before, after):
-        if before.type == ChannelType.text:
+        if before.type == ChannelType.text and before.name != after.name:
             log.info("Updating config file: Guild Text_Channel Updated")
             Config().edit_channel(before, after)
 

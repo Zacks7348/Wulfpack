@@ -31,7 +31,7 @@ except:
     bot.load_extension("bot.cogs.startup")
 
 log.info("Running bot...")
-bot.run("NTgzMzQzMzExNTQ1NDM0MTQw.XaY1tQ.9oNN_MBJF8YCT1s47LeRlxWNNwE")
+bot.run("TOKEN")
 
 
     
